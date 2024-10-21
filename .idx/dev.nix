@@ -41,7 +41,7 @@
           echo "export PATH=\$PATH:$PWD" >> ~/.bashrc
           sudo ln -s $PWD /usr/bin
           cd ../.idx
-          cat ./template/dev.nix > dex.nix
+          cat ./template/dev.nix > dev.nix
           rm -rf ./template
           exit
         '';
